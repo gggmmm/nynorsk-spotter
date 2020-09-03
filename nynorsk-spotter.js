@@ -40,7 +40,7 @@ for( var k = 0; k<classes.length; k++){
     atleastonefound = false;
     for(var j=0; j<words.length; j++){
       var s = elements[i].innerHTML;
-      var res = s.search(words[j]);
+      var res = s.search(words[j].toLocaleLowerCase);
 
       if(res != -1) {
         atleastonefound = true;
