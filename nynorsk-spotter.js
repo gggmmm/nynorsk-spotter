@@ -38,15 +38,12 @@ for( var k = 0; k<classes.length; k++){
 
   for (var i = 0; i < elements.length; i++) {
     if(debug==1){
-        // console.log("round i "+i)
         console.log("current element");
         console.log(elements[i]);
     }
 
     atleastonefound = false;
     for(var j=0; j<words.length; j++){
-      if(debug==1)
-        // console.log("round j "+j)
 
       var s = elements[i].innerHTML.toLocaleLowerCase();
       var res = s.search(words[j]);
@@ -56,14 +53,16 @@ for( var k = 0; k<classes.length; k++){
         listOfNews.push(i);
         wordsFound.push(words[j]);
 
-        if(debug==1)
+        if(debug==1){
           console.log("words found in current element "+words[j]);
+        }
         
         elements[i].style.border = "5px solid red";
       }
     }
-    if(atleastonefound && debug==1)
+    if(atleastonefound && debug==1){
       console.log(elements[i]);
+    }
   }
 
   if(listOfNews.length != 0 && debug==1){
