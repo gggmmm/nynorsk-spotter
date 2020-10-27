@@ -1,9 +1,9 @@
-debug = 0;
+debug = ;
 words = ["alvorleg", "argumenta", "arbaidarar",
           "bekymra", "berre", "bileta", "blei", "brannar",
           " dei ", "desse", "dårleg", "droppa", "dukka",
-          " eg ", " eiga ", " ein ", "einaste", " eit ", " eitt ", "eigentleg", "eg",
-          "farleg", "festklagar", "fjerna", "fleire", "forbod", "forgifta", "fryktar", "frykteleg", "frakta", " frå ", "forandra",
+          " eg ", " eiga ", " ein ", "einaste", " eit ", " eitt ", "eigentleg",
+          "farleg", "festklagar", "fjerna", "fleire", "forbod", "forgifta", "fryktar", "frykteleg", "frakta", " frå ", "forandra", "flokkar",
           "gjere", " gong ", "granskar", "gøymd",
           "hendingar", "hakka", "heilt", "heime", " heim",
           "ikkje",
@@ -17,7 +17,7 @@ words = ["alvorleg", "argumenta", "arbaidarar",
           "stjerna", "skapar", "saka", "sakna", "saman", "seier", "setja", "sjuke", "skaparane", "skjerpa", "skulane", "skular", "skule", "sommaren", "stansar", "stengde", "studentar",
           "tidene", "timar", "turistane", "turbinane", "tida",
           "utan", "utru",
-          "valde", "valte", " veit ", " veka ", " vere ", "velkomen",
+          "valde", "valte", " veit ", " veka ", " vere ", "velkomen", "vegar",
           "åtvara"];
 
 classes   = [ "dh-langlesing-text--2fDc2", "kur-room__content", "plug-teaser"];
