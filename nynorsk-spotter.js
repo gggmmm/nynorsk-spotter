@@ -1,4 +1,4 @@
-debug = ;
+debug = 0;
 words = ["alvorleg", "argumenta", "arbaidarar",
           "bekymra", "berre", "bileta", "blei", "brannar",
           " dei ", "desse", "dårleg", "droppa", "dukka",
